@@ -96,7 +96,7 @@ def create_hero_power():
         hero_power = HeroPower(strength=strength, power=power, hero=hero)
         db.session.add(hero_power)
         db.session.commit()
-aoo
+
         hero_data = {
             "id": hero.id,
             "name": hero.name,
